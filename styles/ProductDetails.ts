@@ -1,0 +1,102 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#ffffff',
+    padding: 20,
+    alignItems: 'center',
+  },
+  productImage: {
+    width: '100%',
+    height: 300,
+    borderRadius: 15,
+    marginBottom: 20,
+    borderWidth: 1,
+    borderColor: '#e0e0e0',
+  },
+  title: {
+    fontSize: 20,
+    color: '#333333',
+    marginBottom: 0,
+    fontFamily: 'Poppins-Bold',
+  },
+  description: {
+    fontSize: 16,
+    color: '#555555',
+    marginBottom: 10,
+    textAlign: 'center',
+    fontFamily: 'Poppins-Regular',
+  },
+  infoContainer: {
+    width: '100%',
+    marginBottom: 10,
+  },
+  infoText: {
+    fontSize: 16,
+    color: '#777777',
+    marginBottom: 0,
+    textAlign: 'center',
+    fontFamily: 'Poppins-Regular',
+  },
+  price: {
+    fontSize: 18,
+    color: '#186F65',
+    textAlign: 'center',
+    fontFamily: 'Poppins-Bold',
+  },
+  addToCartButton: {
+    backgroundColor: '#186F65',
+    paddingVertical: 10,
+    borderRadius: 10,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: 15,
+    width: 150,
+    height: 50,
+    flexDirection: 'row',
+  },
+  addToCartText: {
+    color: '#ffffff',
+    fontWeight: 'bold',
+    fontSize: 18,
+    fontFamily: 'Poppins-Bold',
+  },
+  outOfStockButton: {
+    backgroundColor: '#dc3545',
+  },
+  quantitySelector: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: 15,
+    width: 170,
+    justifyContent: 'space-around',
+  },
+  quantityButtonContainer: {
+    backgroundColor: '#186F65',
+    paddingVertical: 10,
+    borderRadius: 10,
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: 50,
+    height: 50,
+  },
+  quantityButton: {
+    color: '#ffffff',
+    fontWeight: 'bold',
+    fontSize: 20,
+    fontFamily: 'Poppins-Bold',
+  },
+  quantityText: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#333333',
+    fontFamily: 'Poppins-Bold',
+  },
+  buttonIcon: {
+    width: 22,
+    height: 22,
+    marginRight: 5,
+    tintColor: '#fff',
+  },
+});
